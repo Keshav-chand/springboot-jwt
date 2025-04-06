@@ -61,6 +61,6 @@ src/main/java/com/example/demo/
 
 - Register a user via `/api/auth/register`
 - Authenticate via `/api/auth/authenticate` to receive a JWT token
-- Use the token in the `Authorization` header for secured endpoints:
+- Use the token in the `Authorization` header for secured endpoints.
 
 
