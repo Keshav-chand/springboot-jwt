@@ -48,7 +48,16 @@ cd springboot-jwt
 3. Build and run the application:
 
 
-## Authentication Flow
+# 👨‍💻 Folder Structure
+src/main/java/com/example/demo/
+│
+├── config/                     → Security configuration
+├── controller/                 → Handles API requests
+├── filter/                     → JWT request filtering
+├── model/                      → Entities and DTOs
+├── service/                    → Business logic and token service
+├── repository/                 → JPA repository interfaces
+└── DemoApplication.java        → Main application class
 
 - Register a user via `/api/auth/register`
 - Authenticate via `/api/auth/authenticate` to receive a JWT token
